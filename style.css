@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    max-width: 100%;
+    max-height: fit-content;
+    min-height: 100vh;
+    padding: 10%;
+    background-image: url("images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+header, section, footer{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+footer{
+    margin: 0;
+}
+.logo-wrapper{
+    width: 40%;
+}
+.illustration-wrapper, h1, .text-wrapper p{
+    margin-bottom: 20px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+button{
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 50px;
+    color: hsl(257, 40%, 49%);
+    background-color: white;
+    box-shadow: 0 0 5px #272525ce;
+}
+button:hover{
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 5px;
+    text-decoration: none;
+}
+.socials i:hover{
+    color: hsl(300, 69%, 71%);
+    border: 2px solid hsl(300, 69%, 71%);
+}
+.attribution{
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+.attribution a{
+    color: hsl(300, 69%, 71%);
+}
+@media screen and (min-width: 767px) {
+    section{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        text-align: left;
+    }
+    body{
+        padding: 2% 5%;
+        background-image: url("images/bg-desktop.svg");
+        background-size: cover;
+    }
+    .logo-wrapper{
+        width: 25%;
+  }
+}
+@media screen and (min-width: 1024px) {
+    h1{
+        width: 70%;
+        font-size: 2.1rem;
+    }
+    p{
+        width: 93%;
+        font-size: 1.1rem;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    h1{
+        width: 70%;
+        font-size: 2.5rem;
+    }
+    p{
+        width: 93%;
+        font-size: 1.3rem;
+    }
+    section{
+        gap: 50px;
+    }
+  }
+  
+  
