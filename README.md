@@ -8,7 +8,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 
-- Live Site URL: []
+- Live Site URL: [https://evereverk.github.io/Huddle-Landing-Page/]
 
 ## My process
 
