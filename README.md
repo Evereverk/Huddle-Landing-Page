@@ -23,6 +23,6 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@Evereverk](https://www.frontendmentor.io/profile/Evereverk)
-- Instagram - [@aywilakm](https://www.instagram.com/aywilakm)
+- Instagram - [@ever_everk](https://www.instagram.com/ever_everk)
 
 
